@@ -1,0 +1,72 @@
+.user-card {
+  width: 260px;
+  margin: auto;
+  background: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+
+  &-img {
+    width: max-content;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 50%;
+  }
+
+  &-name {
+    font-weight: 600;
+    text-align: center;
+    color: #2c3e50;
+    padding: 10px 0;
+  }
+
+  &-top {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    background: linear-gradient(145deg, #e8e8e8, #f0f0f0);
+  }
+
+  &-info {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    background: linear-gradient(145deg, #e8e8e8, #f0f0f0);
+  }
+
+  &-bottom {
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    background: #e0e0e0;
+  }
+
+  &-email {
+    opacity: 0.7;
+    font-size: 14px;
+    color: #4a4a4a;
+  }
+
+  &-address {
+    font-size: 16px;
+    color: #2c3e50;
+  }
+}
+
+.btn-right {
+  margin-left: auto;
+  background-color: #930352;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.btn-primary  {
+  background-color: #22284f;
+  border-color: #22284f;
+  color: white;
+}
+.btn-success{
+  background-color: #e83962;
+  border-color: #e83962;
+  color: white;
+}
+

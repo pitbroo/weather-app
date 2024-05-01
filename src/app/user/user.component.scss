@@ -1,0 +1,12 @@
+app-user-card {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.users-list {
+  display: flex; /* Ustawienie display na flex, aby elementy były obok siebie */
+  flex-wrap: wrap; /* Opcjonalnie, aby umożliwić zawijanie elementów gdy brakuje miejsca */
+  justify-content: center;
+  align-items: flex-start;
+}
